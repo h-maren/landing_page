@@ -1,0 +1,151 @@
+.header, .description, .footer {
+    background-color: #1F2937;
+}
+
+.header, .description, .random-info, .action-section, .footer {
+    padding: 10px 80px;
+}
+
+.title-one, .top-text {
+    flex-wrap: wrap;
+}
+.header, .description, .action-section {
+    justify-content: space-between;
+}
+
+.right-links, .header, .description, .footer, .action-button, .action-section {
+    display: flex;
+}
+
+.logo, .title-three {
+    font-size: 24px;
+    color: #F9FAF8;
+    align-self: center;
+}
+
+.right-links, .left-links, .top-text, a {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px;
+}
+
+ .title-one {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+ }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, .action-button {
+    background-color: #3882F6;
+}
+
+button {
+    border-radius: 12px;
+    padding: 10px;
+    margin: 10px;
+    border-style: none;
+}
+
+.title-two {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 20px;
+}
+
+.right-image {
+    background-color: grey;
+    margin: 10px;
+    text-align: center;
+    padding: 40px;
+    align-self: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.container, .random-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-text {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container, .dog-img, .box-text {
+    display: flex;
+}
+
+img {
+    height: auto;
+    max-width: 50%;
+    border-radius: 12px;
+}
+
+.dog-img {
+    flex-wrap: wrap;
+}
+
+.quote-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 40px 500px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.tag {
+    align-self: flex-end;
+}
+
+.action-section {
+    background-color: #3882F6;
+}
+
+.footer, .action-description, .action-button {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.action-button {
+    align-self: flex-end;
+    margin-right: 40px;
+    font-weight: bold;
+    border-color:#E5E7EB;
+    border-style: ridge;
+}
+
+.footer {
+    font-weight: bold;
+}
+
