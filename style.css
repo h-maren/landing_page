@@ -44,6 +44,8 @@ ul {
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0;
 }
 
 a {
@@ -77,35 +79,35 @@ button {
     align-self: center;
 }
 
-.image-container {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 10px;
-}
-
-.container, .random-info {
+.random-info {
     display: flex;
     flex-direction: column;
 }
 
 .box-text {
-    text-align: center;
     display: flex;
+    flex-wrap: wrap;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-.image-container, .dog-img, .box-text {
-    display: flex;
-}
-
 img {
-    height: auto;
-    max-width: 50%;
     border-radius: 12px;
+    max-width: 200px;
+    height: auto;
 }
 
 .dog-img {
     flex-wrap: wrap;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .quote-section {
@@ -113,7 +115,7 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 40px 500px;
+    padding: 40px 400px;
 }
 .quote {
     font-size: 36px;
@@ -123,6 +125,7 @@ img {
 
 .tag {
     align-self: flex-end;
+    margin-right: 100px;
 }
 
 .action-section {
@@ -147,5 +150,11 @@ img {
 
 .footer {
     font-weight: bold;
+    position: sticky;
+    bottom: 0;
 }
 
+.header {
+    position: sticky;
+    top: 0;
+}
